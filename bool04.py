@@ -1,4 +1,5 @@
 def main(a):
+    x=a<0
     """
     check the following statement "The variable "a" is negative"
     Args:
@@ -7,4 +8,6 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    return x
+print(main(-3))
+print(main(8))

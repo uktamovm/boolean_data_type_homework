@@ -1,4 +1,5 @@
 def main(a):
+    float1=a
     """
     check the whole number. Integers are 0 and a positive number.
     Args:
@@ -7,4 +8,6 @@ def main(a):
         bool
     """
     # Write your code here
-    return
+    return float1
+print(bool(3))
+print(bool(0))

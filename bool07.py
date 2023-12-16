@@ -1,4 +1,5 @@
 def main(a,b):
+    x=a!=b
     """
     check the following statement "They are not equal"
     Args:
@@ -8,4 +9,6 @@ def main(a,b):
         bool
     """
     # Write your code here
-    return 
+    return x
+print(main(3, 1))
+print(main(5, 5))
